@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+img:hover {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+body {
+    display: flex;
+    height: 100vh;
+    width: 99.98vw;
+    margin: 0%;
+    background-color: #ffffff;
+}
+
+.first-col-div-container {
+    display: flex;
+    flex-direction: column;
+    width: .8%;
+    height: 100%;
+
+    .top-div {
+        display: flex;
+        background-color: black;
+        height: 2%;
+    }
+    .mid-div {
+        display: flex;
+        background-color: #14468d;
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+        height: 2%;
+    }
+    .bot-div {
+        display: flex;
+        height: 96%;
+        flex-direction: column;
+        .top-div-container {
+            display: flex;
+            background-color: black;
+            height: 13%;
+        }
+        .center-div-container {
+            display: flex;
+            height: 78%;
+            background-color: white;
+        }
+        .bottom-div-container{
+            display: flex;
+            height: 11%;
+            background-color: black;
+        }
+    }
+}
+
+.second-col-div-container {
+    display: flex;
+    width: 1.1%;
+    height: 100%;
+    background-color: #14468d;
+    border-left: 2.5px rgb(0, 0, 0) solid;
+    border-right: 2.5px rgb(0, 0, 0) solid;
+}
+
+.third-col-div-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    .top-div {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        height: 2%;
+    }
+    .mid-div {
+        display: flex;
+        height: 2%;
+        background-color: #14468d;
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+    }
+    .bot-div {
+        display: flex;
+        height: 96%;
+        flex-direction: column;
+
+        .top-div-container {
+            display: flex;
+            width: 100%;
+            height: 13%;
+            background-color: black;
+
+            .img-div {
+                display: flex;
+                height: 100%;
+                width: 33.3333333333%;
+
+                .logo {
+                    height: 6em;
+                }
+            }
+            .button-div {
+                display: flex;
+                height: 100%;
+                width: 33.3333333333%;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    position: relative;
+                    width: 300px;
+                    height: 70px;
+                    text-align: center;
+                    border: 2px solid #14468d;
+                    border-radius: 50px;
+                    background: transparent;
+                    color: #fff;
+                    cursor: pointer;
+                    overflow: hidden;
+                    transition: 0.3s;
+                    font-size: 2rem;
+                    z-index: 1;
+                    font-weight: 700;
+                }
+                span {
+                    background: #14468d;
+                    height: 100%;
+                    width: 0%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    z-index: -1;
+                    transition: 0.3s;
+                }
+                button:hover span{
+                    width: 100%;
+                }
+                button:hover {
+                    color: black;
+                }
+                button:active span{
+                    width: 0;
+                }
+                button:active {
+                    color: #fff;
+                }
+            }
+            .fill {
+                display: flex;
+                height: 100%;
+                width: 33.3333333333%;
+            }
+        }
+        .center-div-container {
+            display: flex;
+            width: 100%;
+            height: 78%;
+            background-color: white;
+
+            .left-container {
+                display: flex;
+                height: 100%;
+                width: 35%;
+                justify-content: center;
+                align-items: center;
+
+                .logo {
+                    height: 35vh;
+                }
+
+            }
+            .center-container {
+                display: flex;
+                height: 100%;
+
+                width: 76.5%;
+                flex-direction: column;
+                justify-content: center;
+                .for-center {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 1rem 2vw 2rem 2vw;
+                    width: 80%;
+                    height: 60%;
+                    p{
+                        font-size: 1.5rem;
+                    }
+                    h1 {
+                        font-size: 4rem;
+                    }
+                }
+
+
+            }
+        }
+        .bottom-div-container {
+            display: flex;
+            width: 100%;
+            height: 11%;
+            background-color: black;
+            justify-content: center;
+
+            .button-div {
+                display: flex;
+                height: 100%;
+                width: 87%;
+                justify-content: center;
+                align-items: center;
+
+                button {
+                    position: relative;
+                    width: 300px;
+                    height: 70px;
+                    text-align: center;
+                    border: 2px solid #14468d;
+                    border-radius: 50px;
+                    background: transparent;
+                    color: #fff;
+                    cursor: pointer;
+                    overflow: hidden;
+                    transition: 0.3s;
+                    font-size: 2rem;
+                    z-index: 1;
+                    font-weight: 700;
+                }
+                span {
+                    background: #14468d;
+                    height: 100%;
+                    width: 0%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    z-index: -1;
+                    transition: 0.3s;
+                }
+                button:hover span{
+                    width: 100%;
+                }
+                button:hover {
+                    color: black;
+                }
+                button:active span{
+                    width: 0;
+                }
+                button:active {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
