@@ -60,10 +60,20 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+What is the project - It has a landing page with button that directs you to header gallery and footer gallery, header gallery has 5 static and 5 animated headers, the same goes to the footer gallery.
+
+Whats the purpose - The project's goal is to showcase a variety of styles and designs for website headers and footers. It shows static and animated versions of headers and footers, each with their own visual style.
+
+What are key components - 
+1. Headers 
+2. Footers
+3. Navigation
+4. CSS Styling 
+5. Animations
+
+What technology used and how it is used -
+1. HTML - Defines the structure and content hierarchy of the webpage, including headers.
+2. CSS - used to customize the appearance and behavior of headers and footers. This includes defining colors, fonts, alignments, animations, and responsive layouts., Font Awesome, VS Code, Github, WakaTime.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +127,20 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| remove bg| To remove background from photos | remove.bg |
+
+
+## Wakatime
+<div align="center" float="left">
+  <p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=xtianjms&show_icons=true&theme=dark" alt="xtianjms" width=400 />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xtianjms&layout=compact&theme=dark" alt="xtianjms" width=310 />
+  </p>
+  <p>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=xtianjms&theme=radical&hide_border=false" alt="xtianjms" width=430 />
+    <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=xtianjms&theme=tokyonight&utcOffset=+08" alt="xtianjms" width=310 />
+  </p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=xtianjms&theme=tokyonight" alt="xtianjms" style="max-width: 100%;border: 1px solid white;border-radius: 6px;" width=600></img>
+
+  <br/>
+</div>
