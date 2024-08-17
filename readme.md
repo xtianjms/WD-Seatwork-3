@@ -60,18 +60,16 @@
 Description of the project in details.
 
 Guiding Question:
-What is the project - It has a landing page with button that directs you to header gallery and footer gallery, header gallery has 5 static and 5 animated headers, the same goes to the footer gallery.
+It has a landing page with button that directs you to header gallery and footer gallery, header gallery has 5 static and 5 animated headers, the same goes to the footer gallery.
 
-Whats the purpose - The project's goal is to showcase a variety of styles and designs for website headers and footers. It shows static and animated versions of headers and footers, each with their own visual style.
+The project's goal is to showcase a variety of styles and designs for website headers and footers. It shows static and animated versions of headers and footers, each with their own visual style.
 
-What are key components -
 1. Headers
 2. Footers
 3. Navigation
 4. CSS Styling
 5. Animations
 
-What technology used and how it is used -
 1. HTML - Defines the structure and content hierarchy of the webpage, including headers.
 2. CSS - used to customize the appearance and behavior of headers and footers. This includes defining colors, fonts, alignments, animations, and responsive layouts., Font Awesome, VS Code, Github, WakaTime.
 
