@@ -76,7 +76,7 @@ The project's goal is to showcase a variety of styles and designs for website he
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
 - Parallax transition
 - Transactional
 
